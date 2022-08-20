@@ -10,6 +10,7 @@ jobs:
     docker:
       # the base image can run most needed actions with orbs
       - image: "cimg/node:14.15"
+    executor: node/default # use the default executor defined within the orb
     steps:
       # install node and checkout code
       - node/install:
@@ -42,6 +43,7 @@ jobs:
     docker:
       - image: "cimg/base:stable"
       # more setup needed for aws, node, elastic beanstalk
+    executor: node/default # use the default executor defined within the orb
     steps:
       - node/install:
           node-version: '14.15' 
