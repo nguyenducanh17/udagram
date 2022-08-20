@@ -5,7 +5,7 @@
 ## AWS
 ### RDS Postgres 
 - The application server uses AWS RDS Postgres as database for storing and retrieving information.
-    + Endpoint: database-udagram-5288-6281-8438.cpixdqrwv0jt.us-east-1.rds.amazonaws.com
+    + Endpoint: database-udagram.cpixdqrwv0jt.us-east-1.rds.amazonaws.com
     + Port: 5432
 ### Elastic Beanstack
 - Used to save BE code and FrontEnd code will call the API's on  the EB through this endpoint.
