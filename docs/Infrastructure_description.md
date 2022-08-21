@@ -9,7 +9,7 @@
     + Port: 5432
 ### Elastic Beanstack
 - Used to save BE code and FrontEnd code will call the API's on  the EB through this endpoint.
-    + Endpoint: http://udagramenviroment-env.eba-dfvmtgkf.us-east-1.elasticbeanstalk.com
+    + Endpoint: http://udagram-env.eba-dsbd46v8.us-east-1.elasticbeanstalk.com
 ### S3 Bucket
 - The frontend application is deployed using AWS S3 Bucket. The bundled assets are uploaded to an S3 bucket and that
 bucket is made publicly readable. End users can access the application from the Bucket's endpoint.
