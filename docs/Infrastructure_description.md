@@ -13,4 +13,4 @@
 ### S3 Bucket
 - The frontend application is deployed using AWS S3 Bucket. The bundled assets are uploaded to an S3 bucket and that
 bucket is made publicly readable. End users can access the application from the Bucket's endpoint.
-    + Endpoint: http://udagram-bucket-5288-6281-8438.s3-website-us-east-1.amazonaws.com
+    + Endpoint: http://udagram-bucket-1-5288-6281-8438.s3-website-us-east-1.amazonaws.com
